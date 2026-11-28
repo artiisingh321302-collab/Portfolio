@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   { id: 'projects', label: 'Projects', href: '#projects' },
   { id: 'experience', label: 'Experience', href: '#experience' },
   { id: 'resume', label: 'Resume', href: '#resume' },
-  { id: 'contact', label: 'Contact', href: '#contact' },
+  // { id: 'contact', label: 'Contact', href: '#contact' },
 ]
 
 const SECTION_IDS = NAV_ITEMS.map((item) => item.id)
