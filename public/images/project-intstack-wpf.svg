@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="wpfTitle">
+  <title id="wpfTitle">Intstack WPF desktop application project preview</title>
+  <defs>
+    <linearGradient id="wpfBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090f24" />
+      <stop offset="0.55" stop-color="#101026" />
+      <stop offset="1" stop-color="#1c133e" />
+    </linearGradient>
+    <linearGradient id="wpfAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <radialGradient id="wpfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.36" />
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="wpfGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#wpfBg)" />
+  <rect width="800" height="500" fill="url(#wpfGrid)" />
+  <circle cx="180" cy="400" r="300" fill="url(#wpfGlow)" />
+
+  <rect x="90" y="70" width="620" height="370" rx="20" fill="#0b1226" stroke="#475569" stroke-opacity="0.5" />
+  <rect x="90" y="70" width="620" height="48" rx="20" fill="#111a32" />
+  <rect x="90" y="98" width="620" height="20" fill="#111a32" />
+  <text x="120" y="101" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Intstack WPF</text>
+  <g>
+    <rect x="630" y="84" width="18" height="12" rx="2" fill="none" stroke="#94a3b8" stroke-opacity="0.55" />
+    <rect x="654" y="84" width="16" height="12" rx="2" fill="none" stroke="#94a3b8" stroke-opacity="0.55" />
+    <path d="M680 84l8 6-8 6" fill="none" stroke="#f87171" stroke-opacity="0.8" stroke-width="1.8" />
+  </g>
+  <rect x="604" y="122" width="86" height="20" rx="10" fill="#22d3ee" fill-opacity="0.1" />
+  <text x="647" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" letter-spacing="0.5" fill="#67e8f9">DESKTOP APP</text>
+
+  <rect x="90" y="118" width="150" height="322" fill="#818cf8" fill-opacity="0.06" />
+  <path d="M240 118V440" stroke="#475569" stroke-opacity="0.35" />
+  <g>
+    <rect x="112" y="146" width="106" height="30" rx="8" fill="url(#wpfAccent)" fill-opacity="0.9" />
+    <rect x="126" y="158" width="58" height="6" rx="3" fill="#ffffff" fill-opacity="0.92" />
+  </g>
+  <g fill="#64748b" fill-opacity="0.55">
+    <rect x="126" y="204" width="76" height="7" rx="3.5" />
+    <rect x="126" y="240" width="60" height="7" rx="3.5" />
+    <rect x="126" y="276" width="82" height="7" rx="3.5" />
+    <rect x="126" y="312" width="52" height="7" rx="3.5" />
+  </g>
+  <rect x="112" y="388" width="106" height="28" rx="8" fill="#0b1226" stroke="#475569" stroke-opacity="0.35" />
+  <circle cx="128" cy="402" r="6" fill="#818cf8" fill-opacity="0.8" />
+  <rect x="142" y="399" width="56" height="6" rx="3" fill="#64748b" fill-opacity="0.5" />
+
+  <rect x="264" y="140" width="270" height="238" rx="12" fill="#0e1830" stroke="#475569" stroke-opacity="0.4" />
+  <rect x="264" y="140" width="270" height="32" rx="12" fill="#111c38" />
+  <text x="280" y="161" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#94a3b8">Analysis queue</text>
+  <g>
+    <circle cx="286" cy="197" r="6" fill="#34d399" />
+    <rect x="302" y="193" width="94" height="7" rx="3.5" fill="#94a3b8" fill-opacity="0.55" />
+    <rect x="424" y="191" width="52" height="12" rx="6" fill="#34d399" fill-opacity="0.16" />
+    <text x="450" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#6ee7b7">Complete</text>
+  </g>
+  <g>
+    <circle cx="286" cy="237" r="6" fill="#38bdf8" />
+    <rect x="302" y="233" width="78" height="7" rx="3.5" fill="#94a3b8" fill-opacity="0.55" />
+    <rect x="424" y="231" width="52" height="12" rx="6" fill="#38bdf8" fill-opacity="0.16" />
+    <text x="450" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#7dd3fc">Processing</text>
+  </g>
+  <g>
+    <circle cx="286" cy="277" r="6" fill="#a78bfa" />
+    <rect x="302" y="273" width="108" height="7" rx="3.5" fill="#94a3b8" fill-opacity="0.55" />
+    <rect x="424" y="271" width="52" height="12" rx="6" fill="#a78bfa" fill-opacity="0.16" />
+    <text x="450" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#c4b5fd">Queued</text>
+  </g>
+  <g>
+    <circle cx="286" cy="317" r="6" fill="#fbbf24" />
+    <rect x="302" y="313" width="86" height="7" rx="3.5" fill="#94a3b8" fill-opacity="0.55" />
+    <rect x="424" y="311" width="52" height="12" rx="6" fill="#fbbf24" fill-opacity="0.14" />
+    <text x="450" y="320" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#fcd34d">Review</text>
+  </g>
+  <rect x="280" y="344" width="238" height="6" rx="3" fill="#1e293b" />
+  <rect x="280" y="344" width="164" height="6" rx="3" fill="url(#wpfAccent)" fill-opacity="0.8" />
+
+  <rect x="550" y="140" width="132" height="238" rx="12" fill="#0e1830" stroke="#475569" stroke-opacity="0.4" />
+  <rect x="566" y="156" width="100" height="106" rx="8" fill="#0b162c" stroke="#38bdf8" stroke-opacity="0.28" />
+  <circle cx="616" cy="210" r="24" fill="#38bdf8" fill-opacity="0.12" />
+  <path d="M609 197l18 13-18 13z" fill="#7dd3fc" fill-opacity="0.9" />
+  <text x="582" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#94a3b8">Visual analysis</text>
+  <rect x="566" y="296" width="78" height="6" rx="3" fill="#64748b" fill-opacity="0.4" />
+  <rect x="566" y="312" width="60" height="6" rx="3" fill="#64748b" fill-opacity="0.32" />
+  <rect x="566" y="340" width="100" height="22" rx="6" fill="#111c38" stroke="#475569" stroke-opacity="0.32" />
+  <rect x="578" y="348" width="62" height="6" rx="3" fill="#64748b" fill-opacity="0.45" />
+</svg>
