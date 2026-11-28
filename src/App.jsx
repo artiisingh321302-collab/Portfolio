@@ -30,7 +30,7 @@ function App() {
         <Experience />
         <Education />
         <Resume />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </div>
